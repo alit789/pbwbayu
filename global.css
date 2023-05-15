@@ -52,7 +52,7 @@ input{
 }
 .Headline p{
     color:var(--blackDesc);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .Headline h1{
     font-weight: 900;
@@ -69,21 +69,6 @@ input{
     padding: 1rem 3rem;
 }
 
-/* Book */
-
-.JudulBook h1,.JudulBook span{
-    font-size: 4.3rem;
-    font-weight: 900;
-}
-.JudulBook span{
-    color: var(--bluePrimary);
-}
-.JudulBook p{
-    font-size: 1.5rem;
-    color: var(--blackDesc);
-}
-
-
 /*Why and Kamera*/
 .title h1, .textKamera h1, .titleFAQ h1{
     font-weight: 700;
@@ -91,7 +76,7 @@ input{
     font-size: 3.5rem;
 }
 .title p , .textKamera p, .titleFAQ p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .logo{
     width: fit-content;
@@ -102,12 +87,12 @@ input{
 }
 
 .card{
-    padding: 0 1rem;
+    padding: 0 2rem;
     border-radius: 2rem;
 }
 
 .descCard p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* Kamera */
@@ -137,12 +122,12 @@ input{
 /*Faq*/
 .Accordion button{
     border-radius: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
-
-
-
+.accordion-body{
+    font-size: 1.5rem;
+}
 /* Media Screen */
 
 @media screen and (max-width:992px) {
